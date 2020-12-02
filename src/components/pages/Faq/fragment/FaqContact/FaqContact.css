@@ -1,0 +1,34 @@
+.faq_contact_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2e2e;
+}
+
+.faq_contact_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #505050;
+}
+
+.faq_btn {
+  background: #ff6600;
+  border-radius: 4px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 124.34%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.faq_contact {
+  border-bottom: 1.2px solid #c2c2c2;
+}
+/*# sourceMappingURL=FaqContact.css.map */

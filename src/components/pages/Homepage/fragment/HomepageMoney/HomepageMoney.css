@@ -1,0 +1,65 @@
+.homepage_money_margin {
+  margin-top: 140px;
+}
+
+.test_name {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.money_section_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.money_section_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+.blog_bg {
+  padding-bottom: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+  .hide {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hide {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .homepage_money_margin {
+    margin-top: 100px;
+  }
+  .hiden {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .homepage_money_margin {
+    margin-top: 100px;
+  }
+}
+/*# sourceMappingURL=HomepageMoney.css.map */

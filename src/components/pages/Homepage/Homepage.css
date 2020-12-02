@@ -1,0 +1,11 @@
+.money_bg {
+  background: rgba(255, 102, 0, 0.8);
+  mix-blend-mode: normal;
+}
+
+.money_img {
+  background: url("../../images/home/money_inner.jpg");
+  height: 792px;
+  margin-top: -35px;
+}
+/*# sourceMappingURL=Homepage.css.map */

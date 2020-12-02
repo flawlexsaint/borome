@@ -1,0 +1,30 @@
+.about_us_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #2e2e2e;
+  max-width: 412px;
+}
+
+.about_us_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #505050;
+}
+
+.about_header_margin {
+  margin-top: 4rem;
+}
+
+@media (max-width: 575.98px) {
+  .about_header_margin {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=AboutHeader.css.map */

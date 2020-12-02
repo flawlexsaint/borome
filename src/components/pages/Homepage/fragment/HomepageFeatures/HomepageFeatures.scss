@@ -1,0 +1,83 @@
+.homepage_pane_one {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  color: #ec681c;
+}
+
+.homepage_features_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #2e2e2e;
+}
+
+.homepage_sub_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e2e2e;
+}
+
+.homepage_features_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #505050;
+}
+
+.homepage_feature_margin {
+  margin-top: 220px;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .homepage_bg {
+    background: #ffffff !important;
+  }
+
+  .hf_sm {
+    text-align: center;
+  }
+
+  .homepage_feature_margin {
+    margin-top: 150px;
+    background: #fffcf4;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .homepage_bg {
+    background: #ffffff !important;
+  }
+
+  .hf_sm {
+    text-align: center;
+  }
+
+  .homepage_feature_margin {
+    margin-top: 150px;
+    background: #fffcf4;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

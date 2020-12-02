@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,WAAW,EAAE,cAAc;EAC3B,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "DandI.scss"
+    ],
+    "names": [],
+    "file": "DandI.css"
+}

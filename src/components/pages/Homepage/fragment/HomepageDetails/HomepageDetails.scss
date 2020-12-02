@@ -1,0 +1,127 @@
+.homepage_details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "image text";
+}
+
+.homepage_left_pane {
+  grid-area: image;
+}
+
+.homepage_right_pane {
+  grid-area: text;
+  display: flex;
+  align-items: center;
+}
+
+.homepage_details_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #2e2e2e;
+}
+
+.header_color_span {
+  color: #ff6600;
+}
+
+.homepage_details_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #505050;
+}
+
+.detail_count {
+  background: #ff6600;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  margin-right: 10px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 124.34%;
+  text-align: center;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .homepage_details {
+    grid-gap: 3rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      " text";
+  }
+
+  .hd_sm {
+    margin-top: 520px !important;
+    margin-bottom: 100px;
+  }
+
+  .homepage_right_pane {
+    justify-content: center;
+  }
+
+  .homepage_details_header {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    color: #2e2e2e;
+  }
+
+  .homepage_details_text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505050;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .homepage_details {
+    grid-gap: 3rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      " text";
+  }
+
+  .hd_sm {
+    margin-top: 420px !important;
+    margin-bottom: 100px;
+  }
+
+  .homepage_right_pane {
+    justify-content: center;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hd_sm {
+    margin-bottom: 100px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hd_sm {
+    margin-bottom: 100px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

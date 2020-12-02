@@ -1,0 +1,28 @@
+.terms_bg {
+  background: url("../../images/terms/terms_bg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 868px;
+}
+
+.tandc_margin_top {
+  margin-top: 139px;
+}
+
+.terms_ellipse {
+  background: url("../../images/terms/terms_ellipse.svg");
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 575.98px) {
+  .tandc_margin_top {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .tandc_margin_top {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=Terms.css.map */

@@ -1,0 +1,61 @@
+.sneakpeak_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #2e2e2e;
+}
+
+.sneakpeak_span_color {
+  color: #ec681c;
+}
+
+.count_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  color: #ffffff;
+}
+
+.count_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+  .sneak_peak_sm {
+    margin-top: -200px;
+  }
+  .sneakpeak_header {
+    text-align: center;
+  }
+  .count_header {
+    text-align: center;
+  }
+  .count_text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sneak_peak_sm {
+    margin-top: -250px;
+  }
+  .sneakpeak_header {
+    text-align: center;
+  }
+  .count_header {
+    text-align: center;
+  }
+  .count_text {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=SneakpeakHeader.css.map */

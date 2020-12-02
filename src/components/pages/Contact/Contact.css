@@ -1,0 +1,29 @@
+.contact_bg {
+  background: url("../../images/contact/contact_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.contact_footer_margin {
+  margin-top: 680px;
+}
+
+@media (max-width: 575.98px) {
+  .contact_footer_margin {
+    margin-top: 1120px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact_footer_margin {
+    margin-top: 880px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact_footer_margin {
+    margin-top: 730px;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

@@ -1,0 +1,65 @@
+.brag_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e2e2e;
+}
+
+.brag_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #505050;
+}
+
+.custom_btn {
+  background: #ff6600;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 124.34%;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .information_margin {
+    margin-top: -20px;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .information_margin {
+    margin-top: -20px;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .information_margin {
+    margin-top: 50px;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .information_margin {
+    margin-top: 70px;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .information_margin {
+    margin-top: 70px;
+    margin-bottom: 3rem;
+  }
+}
+/*# sourceMappingURL=InformationSection.css.map */

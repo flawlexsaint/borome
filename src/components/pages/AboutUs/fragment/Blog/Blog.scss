@@ -1,0 +1,81 @@
+.blog_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.blog_sub_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ec681c;
+  text-align: center;
+}
+
+.blog_bg {
+  background: url("../../../../images/about/blog_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -400px;
+  height: 412px;
+  z-index: -100;
+}
+
+.blog_post_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e2e2e;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .blog-header-margin {
+    padding-bottom: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .blog_bg {
+    background: transparent;
+  }
+
+  .blog_post_header {
+    text-align: center;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .blog_bg {
+    background: transparent;
+  }
+
+  .blog-header-margin {
+    padding-bottom: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .blog_post_header {
+    text-align: center;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

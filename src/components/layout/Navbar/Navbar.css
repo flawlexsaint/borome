@@ -1,0 +1,38 @@
+.custom_btn,
+.btn:active {
+  color: #ffffff;
+  background: #ff6600;
+  border-radius: 4px;
+  border: none;
+  max-width: 100px;
+}
+
+.bg-primary {
+  background: transparent !important;
+}
+
+.nav-link {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.34%;
+  color: #505050 !important;
+}
+
+.navbar-toggler-icon {
+  background: url("../../images/layout/menu.svg");
+}
+
+@media (max-width: 575.98px) {
+  .sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

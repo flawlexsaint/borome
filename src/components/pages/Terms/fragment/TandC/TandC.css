@@ -1,0 +1,19 @@
+.terms_header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.terms_text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #505050;
+}
+/*# sourceMappingURL=TandC.css.map */
